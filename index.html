@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="library.js" defer></script>
+  <title>Library / Book Record Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <p class="heading">⋅───⊱༺ <u>Library / Book Record Manager</u> ༻⊰───⋅</p>
+  <button id="addBookBtn">Add Book</button>
+
+  <div id="bookForm">
+    <label>Book Title: <input type="text" id="bookTitle" required></label><br><br>
+    <label>Author: <input type="text" id="bookAuthor" required></label><br><br>
+    <label>Pages: <input type="number" id="bookPages" required></label><br><br>
+    <label>Read: 
+      <select id="bookReadStatus">
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+      </select>
+    </label><br><br>
+    <button id="submitBook">Go</button>
+  </div>
+
+  <div class="separator">
+    <img src="./Pics/pngegg.png" alt="">
+  </div>
+  <div id="bookContainer"></div>
+
+  <div class="footer">© MoKash, 2024.</div>
+
+</body>
+</html>
+

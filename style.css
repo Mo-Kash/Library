@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    font-family: "Luxurious Roman", serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fbeee0;
+}
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    color: #422800
+}
+#bookForm {
+    display: none;
+    margin: 10px;
+    padding: 25px;
+    font-size: 24px;
+    border: 5px solid #422800;
+    border-radius: 30px;
+    color: #422800
+}
+.book-card {
+    display: inline-block;
+    padding: 25px;
+    margin: 5px;
+    font-size: 24px;
+    border: 5px solid #422800;
+    border-radius: 30px;
+    margin: 20px;
+    color: #422800
+}
+button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-family: "Luxurious Roman", serif;
+    font-size: 24px;
+    background-color: #fce7d3;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button:hover {
+  background-color: #fff;
+}
+
+.button:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+
+.separator{
+    margin: 50px 0 50px 0;
+}
+.separator img{
+    width: 250px;
+    height: auto;
+}
+
+input, select{
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    padding: 7px;
+    background-color: #fce7d3;
+}
+
+.bookContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer{
+    text-align: center;
+    font-size: 1.25rem;
+    color: #422800;
+    margin-top: 50px;
+}
